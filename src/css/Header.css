@@ -1,0 +1,161 @@
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+.backgr {
+  width: 80%;
+  position: relative;
+  height: auto;
+}
+
+.background1 {
+  width: 80%;
+  float: left;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.background2 {
+  width: 100%;
+  float: left;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.people {
+  position: relative;
+  right: -2%;
+  max-width: 29%;
+  width: 26%;
+  height: 50%;
+  z-index: 20;
+  display: inline;
+  margin-top: -27.67%;
+}
+
+.mobile {
+  display: inline;
+  position: relative;
+  float: left;
+  margin-top: -0.5%;
+  width: 46%;
+  z-index: 5;
+  animation-name: slideInCar;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  left: -100%;
+}
+
+.vector2 {
+  z-index: 2;
+  position: absolute;
+  right: 50%;
+  bottom: 7.5%;
+  width: 13%;
+}
+
+.vector1 {
+  z-index: 2;
+  position: absolute;
+  right: 38%;
+  bottom: 3.8%;
+  width: 20%;
+}
+
+.logo {
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+  left: 300px;
+  width: 18%;
+}
+
+.cercmare {
+  z-index: 2;
+  position: absolute;
+  right: -18%;
+  bottom: 24.5%;
+  width: 48%;
+}
+
+.cercmic {
+  z-index: 2;
+  position: absolute;
+  right: 15%;
+  bottom: 11.5%;
+  width: 33%;
+}
+
+.head {
+  height: auto;
+  position: absolute;
+  top: 190px;
+  left: 300px;
+  bottom: 0%;
+  z-index: 2;
+}
+
+.titlu {
+  color: #ffffff;
+  font-family: DM serif Display;
+  font-size: 100px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 10px;
+}
+
+.nav {
+  width: 80%;
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+button {
+  z-index: 3;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+  padding: 20px 24px;
+  border-radius: 5px;
+  font-family: "Rubik", sans-serif;
+}
+
+.nav button {
+  margin: 0 35px;
+}
+
+.red-btn {
+  background-color: #ee4d47;
+}
+
+.transparent-btn {
+  background-color: transparent;
+}
+
+.arrow {
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.head .red-btn {
+  float: left;
+}
+
+@keyframes slideInCar {
+    from {left: -100%}
+    to {left: 0} 
+}
