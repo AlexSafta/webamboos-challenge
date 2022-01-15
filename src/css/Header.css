@@ -161,6 +161,6 @@ button {
 
 /* ANIMATIONS */
 @keyframes slideInCar {
-    from {left: -100%}
-    to {left: 0} 
+  from {left: -100%}
+  to {left: 0} 
 }

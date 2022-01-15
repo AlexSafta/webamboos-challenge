@@ -1,0 +1,84 @@
+/* CLASS SELECTORS */
+.additional-info {
+  text-align: left;
+  background-color: rgba(252, 221, 212, 0.4);
+  width: 100%;
+  padding: 30px 55px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left:solid 10px #ED4D47;
+  margin-top: 70px;
+}
+
+.additional-info p{
+  font-family: Rubik;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight:bold;
+}
+
+.from-right {
+  z-index: 10;
+  animation-name: cameFromRight;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  right: -200%;
+  position: relative;
+}
+
+.from-left {
+  z-index: 10;
+  animation-name: cameFromLeft;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  left: -200%;
+  position: relative;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 130px 250px ;
+}
+
+.section-description {
+  text-align: left;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: Rubik;
+  font-weight: 300;
+}
+
+.section-title {
+  color: #EE4D47;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase; 
+  margin: 40px 0;
+}
+
+.sub-section {
+  max-width: 45%;
+}
+
+.sub-section.text {
+  max-width: 40%;
+}
+
+/* ANIMATIONS */
+@keyframes cameFromRight {
+  from {right: -200%}
+  to {right: 0} 
+}
+
+@keyframes cameFromLeft {
+  from {left: -200%}
+  to {left: 0} 
+}

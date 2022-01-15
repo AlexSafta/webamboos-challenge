@@ -21,6 +21,7 @@ const Header = () => {
       <div className="nav">
         {!!topBarButtons && topBarButtons.map((btn, index) => (
           <button
+            key={index}
             className={
               index !== topBarButtons.length - 1 ? "transparent-btn" : "red-btn"
             }
