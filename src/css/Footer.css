@@ -1,0 +1,123 @@
+/* CLASS SELECTORS */
+.bottom-car-section {
+  z-index: 11;
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+
+.background-section {
+  width: 90%;
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  align-self: flex-start;
+  overflow: hidden;
+}
+
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.footer-content {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 11;
+}
+
+.footer-description {
+  border-left: 10px solid rgba(237, 77, 71, 1);
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 95px;
+  width: 40%;
+  margin: 100px 0;
+  text-align: left;
+}
+
+.footer-description p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Rubik;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-form {
+  padding: 50px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  width: 60%;
+  margin: 140px 0;
+}
+
+.buttons button {
+  margin: 0 50px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.buttons button:first-of-type {
+  margin-left: 0;
+}
+
+.buttons button:last-of-type {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* IMAGES */
+.bottom-car {
+  animation-name: slideInCar;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  left: -100%;
+  z-index: -1;
+  position: relative;
+}
+
+.footer-backgr {
+  width: 100%;
+}
+
+.footer-details {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.footer-backgr {
+  width: 100%;
+}
+
+.footer-vector {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-vector2 {
+  position: absolute;
+  right: -25%;
+  bottom: 25px;
+  z-index: -2;
+}

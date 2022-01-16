@@ -1,0 +1,26 @@
+.credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 27px;
+  margin-top: 39px;
+}
+
+.credits p {
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(64, 43, 43, 1);
+}
+
+.credits-main {
+  width: 100%;
+  z-index: 30;
+}
+
+.social-media img {
+  margin: 0 15px;
+}

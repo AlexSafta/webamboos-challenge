@@ -1,0 +1,46 @@
+.faq-card {
+  margin: 5px 10px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 47%;
+  border-radius: 15px;
+}
+
+.faq-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 35px;
+  border-radius: 15px;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+}
+
+.faq-title .icon {
+  color: rgba(238, 77, 71, 1);
+  margin-left: 15px;
+}
+
+.faq-title .title {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  margin: 0;
+}
+
+.message {
+  background-color: #FFF7F5;
+  padding: 40px 35px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+}
+
+.message p {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}

@@ -1,6 +1,8 @@
 import aboutUs from '../assets/about-us.png';
 import howToApply from '../assets/how-to-apply.png';
 
+export const DATA_URL = 'https://lxpi9qne2a.api.quickmocker.com/getReactFAQs';
+
 export const topBarButtons = ['About', 'How to', 'Faqs', 'Contact us'];
 
 export const AboutUs = {

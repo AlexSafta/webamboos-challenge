@@ -1,0 +1,40 @@
+/* CLASS SELECTORS */
+.faq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.faq-backgr {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin-top: 100px;
+  margin-right: 10%;
+}
+
+.faq-description {
+  font-family: DM serif Display;
+  font-weight: 400; 
+  font-size: 48px;
+  text-align: left;
+}
+
+.questions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-right: 10%;
+  margin-top: 80px;
+  width: 65%;
+}

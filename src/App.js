@@ -1,5 +1,8 @@
 import Header from './components/Header';
 import BasicSection from './components/BasicSection';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
+import Credits from './components/Credits';
 
 import { AboutUs, HowToApply } from './utils/constants';
 import './App.css';
@@ -21,6 +24,9 @@ function App() {
         title={HowToApply.title}
         description={HowToApply.description}
       />
+      <FAQ />
+      <Footer />
+      <Credits />
     </div>
   );
 }
