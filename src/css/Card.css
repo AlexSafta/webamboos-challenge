@@ -44,3 +44,18 @@
   line-height: 30px;
   text-align: left;
 }
+
+.red-backgr {
+  background-color: rgba(237, 77, 71, 0.2);
+  width: 100%;
+  margin: 0;
+}
+
+.red-title {
+  color: rgba(237, 77, 71, 1);
+}
+
+.red-title .title {
+  width: 100%;
+  text-align: center;
+}
