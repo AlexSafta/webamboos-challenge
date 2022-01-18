@@ -5,10 +5,10 @@ import { topBarButtons } from "../utils/constants";
 import "../css/Footer.css";
 
 import logo from "../assets/logo.png";
-import background from "../assets/bottom-backgr2.png";
+import background from "../assets/bottom-backgr-two.png";
 import bottomCar from "../assets/bottom-car.png";
 import vector from "../assets/vector-footer.png";
-import vector2 from "../assets/vector2-footer.png";
+import vector2 from "../assets/vector-two-footer.png";
 import backgroundDetails from "../assets/bottom-backgr.png";
 
 const Footer = () => {
