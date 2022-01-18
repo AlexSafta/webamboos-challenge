@@ -30,7 +30,7 @@ const BasicSection = ({
           src={imageUrl}
           style={!textFirst ? { marginLeft: "-20%" } : {}}
           className={textFirst ? "from-right" : "from-left"}
-        />
+          alt="section img"        />
       </div>
     </div>
   );

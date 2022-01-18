@@ -63,7 +63,7 @@ const FAQ = () => {
 
   return (
     <div className="faq">
-      <img src={background} className="faq-backgr" />
+      <img src={background} className="faq-backgr" alt="background" />
       <div className="faq-header">
         <div>
           <p className="section-title">FAQ</p>
@@ -71,7 +71,7 @@ const FAQ = () => {
             Questions and Answers on Professional Traffic Permits:
           </p>
         </div>
-        <img src={person} />
+        <img src={person} alt="person" />
       </div>
       <div className="questions">
       {

@@ -39,16 +39,16 @@ const Header = () => {
           <span className="arrow">→</span>
         </button>
       </div>
-      <img className="main-backgr" src={town} />
+      <img className="main-backgr" src={town} alt="town" />
       <div className="backgr">
-        <img className="backgr2" src={background} />
-        <img className="vector2" src={vector2} />
-        <img className="vector1" src={vector1} />
-        <img className="logo" src={logo} />
-        <img className="bigCircle" src={bigCircle} />
-        <img className="smallCircle" src={smallCircle} />
-        <img className="people" src={people} />
-        <img className="top-car" src={mobel} />
+        <img className="backgr2" src={background} alt="background" />
+        <img className="vector2" src={vector2} alt="rock" />
+        <img className="vector1" src={vector1} alt="rock" />
+        <img className="logo" src={logo} alt="logo" />
+        <img className="bigCircle" src={bigCircle} alt="big Circle" />
+        <img className="smallCircle" src={smallCircle} alt="small Circle" />
+        <img className="people" src={people} alt="people" />
+        <img className="top-car" src={mobel} alt="top car" />
       </div>
     </div>
   );

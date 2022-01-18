@@ -12,9 +12,9 @@ const Credits = () => {
       <div className="credits">
         <p>Copyright @ 2019</p>
         <div className="social-media">
-          <img src={facebook} />
-          <img src={twitter} />
-          <img src={instagram} />
+          <img src={facebook} alt="facebook" />
+          <img src={twitter} alt="twitter" />
+          <img src={instagram} alt="instagram" />
         </div>
       </div>
     </div>

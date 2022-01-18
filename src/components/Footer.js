@@ -15,9 +15,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="bottom-car-section">
-        <img src={vector} className="footer-vector" />
-        <img src={bottomCar} className="bottom-car" />
-        <img src={vector2} className="footer-vector2" />
+        <img src={vector} className="footer-vector" alt="rock" />
+        <img src={bottomCar} className="bottom-car" alt="small car" />
+        <img src={vector2} className="footer-vector2" alt="rock" />
       </div>
       <div className="footer-content">
         <div className="footer-description">
@@ -29,11 +29,11 @@ const Footer = () => {
         <Form />
       </div>
       <div className="background-section">
-        <img src={background} className="footer-backgr" />
-        <img src={backgroundDetails} className="footer-details" />
+        <img src={background} className="footer-backgr" alt="footer background" />
+        <img src={backgroundDetails} className="footer-details" alt="footer background detalis" />
       </div>
       <div className="footer-nav">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
         <div className="buttons">
           {!!topBarButtons &&
             topBarButtons.map((btn, index) => {
