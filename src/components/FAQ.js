@@ -17,7 +17,7 @@ const FAQ = () => {
 
   useEffect(() => {
     if (!dataLoaded || !data) fetchData();
-  }, []);
+  }, [data, dataLoaded]);
 
   useEffect(() => {
     if (dataLoaded && !!data && indexData === 0) {
@@ -27,7 +27,7 @@ const FAQ = () => {
       setCanLoadMore(MIN_CARDS < numOfItems);
       setIndexData(value);
     }
-  }, [data, dataLoaded]);
+  }, [data, dataLoaded, indexData]);
 
   const fetchData = async () => {
     const response = await fetch(DATA_URL);

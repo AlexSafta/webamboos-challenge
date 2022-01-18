@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import { topBarButtons } from "../utils/constants";
 import "../css/Header.css";

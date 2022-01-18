@@ -29,23 +29,29 @@ const Footer = () => {
         <Form />
       </div>
       <div className="background-section">
-        <img src={background} className="footer-backgr" alt="footer background" />
-        <img src={backgroundDetails} className="footer-details" alt="footer background detalis" />
+        <img
+          src={background}
+          className="footer-backgr"
+          alt="footer background"
+        />
+        <img
+          src={backgroundDetails}
+          className="footer-details"
+          alt="footer background detalis"
+        />
       </div>
       <div className="footer-nav">
         <img src={logo} alt="logo" />
         <div className="buttons">
           {!!topBarButtons &&
             topBarButtons.map((btn, index) => {
-              if (index !== topBarButtons.length - 1)
+              if (index !== topBarButtons.length - 1) {
                 return (
-                  <button
-                    key={index}
-                    className="transparent-btn"
-                  >
+                  <button key={index} className="transparent-btn">
                     {btn}
                   </button>
                 );
+              } else return null;
             })}
         </div>
       </div>
