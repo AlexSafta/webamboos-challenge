@@ -1,3 +1,7 @@
+# NAME: Alexandru Safta
+# DEPLOYED WEBSITE: [webamboos challange](https://webamboos-challange-alex-safta.netlify.app/)
+# MAIL: alexsafta98@gmail.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
