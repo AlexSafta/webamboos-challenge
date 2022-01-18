@@ -5,7 +5,7 @@ import "../css/Header.css";
 
 // Images
 import town from "../assets/town.png";
-import people from "../assets/people.png";
+import people from "./../assets/people.png";
 import mobel from "../assets/mobel.png";
 import background from "../assets/background.png";
 import vector2 from "../assets/vector2.png";
